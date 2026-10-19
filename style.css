@@ -258,6 +258,17 @@ button .fas {
   color: #003c71;
 }
 
+.celebration-message {
+  display: none;
+  padding: 16px 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #fff7ed;
+  color: #9a3412;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 /* Counter */
 #attendeeCount {
   color: #0071c5;
@@ -345,6 +356,34 @@ select {
 .team-name {
   font-size: 15px;
   font-weight: 500;
+  color: #475569;
+}
+
+/* Attendee list */
+.attendee-list-section {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #f1f5f9;
+  text-align: left;
+}
+
+.attendee-list-section h3 {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.attendee-list {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.attendee-list li {
+  padding: 12px 15px;
+  border-radius: 8px;
+  background-color: #f8fafc;
   color: #475569;
 }
 
